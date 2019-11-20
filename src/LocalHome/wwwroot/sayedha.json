@@ -22,24 +22,25 @@
     "ImageUrl": "/images/pluralsight.png"
   },
   {
-    "Text": "Reset MSFT Password",
-    "Url": "https://sspm.microsoft.com/",
-    "ImageUrl": "/images/msft-favicon.ico"
+    "Text": "VSMac Team SharePoint site",
+    "Url": "hhttps://microsoft.sharepoint.com/teams/vsformac/",
+    "ImageUrl": "/images/sharepoint-300px.png"
   },
   {
-    "Text": "Create new AzDo Bug",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
-    "ImageUrl": "/images/bug.svg"
+    "Text": "Visual Studio for Mac blog posts",
+    "Url": "https://devblogs.microsoft.com/visualstudio/tag/visual-studio-for-mac/",
+    "ImageUrl": "/images/blog-post.svg",
+    "InvertImageColors": true
   },
   {
-    "Text": "Reset MSFT Password",
-    "Url": "https://sspm.microsoft.com/",
-    "ImageUrl": "/images/msft-favicon.ico"
+    "Text": "RECON Repository",
+    "Url": "https://devdiv.visualstudio.com/DevDiv/_git/RECON",
+    "ImageUrl": "/images/azure-devops.png"
   },
   {
-    "Text": "Create new AzDo Bug",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
-    "ImageUrl": "/images/bug.svg"
+    "Text": "MSTravel",
+    "Url": "https://aka.ms/mstravel",
+    "ImageUrl": "/images/mstravel.png"
   },
   {
     "Text": "Reset MSFT Password",
