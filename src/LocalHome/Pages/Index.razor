@@ -1,0 +1,10 @@
+﻿@page "/"
+@inherits IndexBase
+@using LocalHome.Components;
+@using Microsoft.AspNetCore.Hosting;
+@using System.IO;
+
+@foreach (var ul in GetUserLinks())
+{
+    <Link Text="@ul.Text" Url="@ul.Url" ImageUrl="@ul.ImageUrl"/>
+}

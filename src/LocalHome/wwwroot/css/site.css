@@ -1,0 +1,19 @@
+@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+html {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+    background-color:green;
+    padding:50px;
+}
+
+.userlink{
+    color:red;
+    text-align:center;
+    display:inline-grid;
+    padding-right:30px;
+}
+
+.userlink-image{
+    display:inline-block;
+}

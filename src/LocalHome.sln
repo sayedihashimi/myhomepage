@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalHome", "LocalHome\LocalHome.csproj", "{4D585400-0131-4BA7-A91B-B430DBC02013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalHome.Shared", "LocalHome.Shared\LocalHome.Shared.csproj", "{6B78EC91-6A32-4776-8038-4D5A9D4BA1BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D585400-0131-4BA7-A91B-B430DBC02013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D585400-0131-4BA7-A91B-B430DBC02013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D585400-0131-4BA7-A91B-B430DBC02013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D585400-0131-4BA7-A91B-B430DBC02013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B78EC91-6A32-4776-8038-4D5A9D4BA1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B78EC91-6A32-4776-8038-4D5A9D4BA1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B78EC91-6A32-4776-8038-4D5A9D4BA1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B78EC91-6A32-4776-8038-4D5A9D4BA1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
