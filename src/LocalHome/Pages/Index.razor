@@ -6,5 +6,5 @@
 
 @foreach (var ul in GetUserLinks())
 {
-    <Link Text="@ul.Text" Url="@ul.Url" ImageUrl="@ul.ImageUrl" InvertImage="@ul.InvertImageColors"/>
+    <Link UserLink="@ul"/>
 }

@@ -1,21 +1,15 @@
-﻿<a class="userlink" href="@Url" target="_blank">
-    <span class="@GetImageClassString()"><img src="@ImageUrl" alt="@ImageUrl" /></span>
-    <span class="userlink-text">@Text</span>
+﻿<a class="userlink" href="@UserLink.Url" target="_blank">
+    <span class="@GetImageClassString()"><img src="@UserLink.ImageUrl" alt="@UserLink.ImageUrl" /></span>
+    <span class="userlink-text">@UserLink.Text</span>
 </a>
 
 @code {
     [Parameter]
-    public string Text{ get; set; }
-    [Parameter]
-    public string Url { get; set; }
-    [Parameter]
-    public string ImageUrl { get; set; }
-    [Parameter]
-    public bool InvertImage { get; set; }
+    public IUserLink UserLink { get; set; }
 
     string GetImageClassString() {
         var classstr = "userlink-image";
-        if (InvertImage) {
+        if (UserLink.InvertImageColors) {
             classstr += " invert";
         }
         return classstr;
