@@ -43,34 +43,36 @@
     "ImageUrl": "/images/mstravel.png"
   },
   {
-    "Text": "Reset MSFT Password",
-    "Url": "https://sspm.microsoft.com/",
-    "ImageUrl": "/images/msft-favicon.ico"
+    "Text": "Pillar docs",
+    "Url": "http://aka.ms/dts-pillar",
+    "ImageUrl": "/images/pillar.svg"
   },
   {
-    "Text": "Create new AzDo Bug",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
-    "ImageUrl": "/images/bug.svg"
+    "Text": "OKR Site",
+    "Url": "https://aka.ms/devdivokrs",
+    "ImageUrl": "/images/ok.svg",
+    "InvertImageColors": true
   },
   {
-    "Text": "Reset MSFT Password",
-    "Url": "https://sspm.microsoft.com/",
-    "ImageUrl": "/images/msft-favicon.ico"
+    "Text": ".NET Core Azure DevOps",
+    "Url": "https://devdiv.visualstudio.com/DevDiv/_backlogs/backlog/VS%20for%20Mac%20-%20.NET%20Core%20and%20Azure/Experiences",
+    "ImageUrl": "/images/azure-devops-csharp.png"
   },
   {
-    "Text": "Create new AzDo Bug",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
-    "ImageUrl": "/images/bug.svg"
+    "Text": "Docs - backlog",
+    "Url": "https://devdiv.visualstudio.com/DevDiv/_boards/board/t/VS%20for%20Mac%20-%20Documentation/Stories?showParents=true",
+    "ImageUrl": "/images/msft-docs.png"
   },
   {
-    "Text": "Reset MSFT Password",
-    "Url": "https://sspm.microsoft.com/",
-    "ImageUrl": "/images/msft-favicon.ico"
+    "Text": "Telemetry Queries - GitHub",
+    "Url": "https://github.com/xamarin/telemetry-queries",
+    "ImageUrl": "/images/chart.svg",
+    "InvertImageColors": true
   },
   {
-    "Text": "Create new AzDo Bug",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
-    "ImageUrl": "/images/bug.svg"
+    "Text": "Kusto - VSMac",
+    "Url": "https://web.kusto.windows.net/clusters/ddteldata/databases/VSMac",
+    "ImageUrl": "/images/kusto.png"
   },
   {
     "Text": "Reset MSFT Password",
