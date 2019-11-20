@@ -1,0 +1,29 @@
+﻿@inject IJSRuntime JSRuntime
+@using Microsoft.AspNetCore.Components
+@inject NavigationManager NavManager
+
+
+    <div class="search-container">
+        <div class="fakebox-search-icon"></div>
+        @*The oninput is needed to enable getting the text value w/o the text box losing focus*@
+        <input class="search-google" @bind="SearchText" type="text" placeholder="Search google"
+               @oninput="EventCallback.Factory.CreateBinder<string>(
+                this, __value => SearchText = __value, SearchText)"
+               @onkeypress="KeyWasPressed" />
+    </div>
+
+@code {
+    string SearchText { get; set; }
+
+    public void KeyWasPressed(KeyboardEventArgs args)
+    {
+        if (args.Code == "Enter")
+        {
+            PerformSearch(SearchText);
+        }
+    }
+    public void PerformSearch(string searchText)
+    {
+        NavManager.NavigateTo($"https://www.google.com/search?q={searchText}");
+    }
+}

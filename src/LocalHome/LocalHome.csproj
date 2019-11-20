@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Components\" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LocalHome.Shared\LocalHome.Shared.csproj">
