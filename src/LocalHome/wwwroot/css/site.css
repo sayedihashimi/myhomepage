@@ -6,27 +6,29 @@ html,body {
     padding:50px;
 }
 .userlink-container {
-    background-color:green;
+    background-color: #404040;
+    display: inline-block;
+    margin: 10px;
+    padding:10px;
 }
 .userlink {
     color: white;
     text-align: center;
-    display: inline-grid;
-    padding-right: 30px;
-    padding-bottom: 40px;
-    height: 200px;
     width: 200px;
-}
-
-.userlink-image{
     display:inline-block;
-    padding-bottom:10px;    
+    padding:40px;
 }
-.invert{
-    filter:invert();
+.userlink-image {
+    padding-bottom: 10px;
+    width:100%;
+    text-align:center;
 }
-
+.userlink-text {
+    width: 100%;
+}
+.invert {
+    filter: invert();
+}
     .userlink-image img {
-        height: 150px;
-        width: 150px;
+        width: 50px;
     }

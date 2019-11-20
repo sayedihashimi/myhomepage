@@ -1,8 +1,9 @@
-﻿<a class="userlink" href="@UserLink.Url" target="_blank">
-    <span class="@GetImageClassString()"><img src="@UserLink.ImageUrl" alt="@UserLink.ImageUrl" /></span>
-    <span class="userlink-text">@UserLink.Text</span>
-</a>
-
+﻿<div class="userlink-container">
+    <a class="userlink" href="@UserLink.Url" target="_blank">
+        <div class="@GetImageClassString()"><img src="@UserLink.ImageUrl" alt="@UserLink.ImageUrl" /></div>
+        <div class="userlink-text">@UserLink.Text</div>
+    </a>
+</div>
 @code {
     [Parameter]
     public IUserLink UserLink { get; set; }
