@@ -7,17 +7,19 @@
   {
     "Text": "Create new AzDo Bug",
     "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
-    "ImageUrl": "/images/bug.svg"
+    "ImageUrl": "/images/bug.svg",
+    "InvertImageColors": true
   },
   {
-    "Text": "Reset MSFT Password",
-    "Url": "https://sspm.microsoft.com/",
-    "ImageUrl": "/images/msft-favicon.ico"
+    "Text": "Team calendar",
+    "Url": "http://aka.ms/vsm",
+    "ImageUrl": "/images/calendar2.svg",
+    "InvertImageColors": true
   },
   {
-    "Text": "Create new AzDo Bug",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
-    "ImageUrl": "/images/bug.svg"
+    "Text": "Pluralsight",
+    "Url": "https://aka.ms/pluralsight",
+    "ImageUrl": "/images/pluralsight.png"
   },
   {
     "Text": "Reset MSFT Password",

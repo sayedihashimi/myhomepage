@@ -1,19 +1,32 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
-html {
+html,body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    
-    background-color:green;
+    background-color: #242424;
     padding:50px;
 }
-
-.userlink{
-    color:red;
-    text-align:center;
-    display:inline-grid;
-    padding-right:30px;
+.userlink-container {
+    background-color:green;
+}
+.userlink {
+    color: white;
+    text-align: center;
+    display: inline-grid;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    height: 200px;
+    width: 200px;
 }
 
 .userlink-image{
     display:inline-block;
+    padding-bottom:10px;    
 }
+.invert{
+    filter:invert();
+}
+
+    .userlink-image img {
+        height: 150px;
+        width: 150px;
+    }
