@@ -6,19 +6,17 @@
 
 <Search OnFilter="DoFilter" />
 
-@foreach (var ul in ULinkVM)
+@foreach (var ul in ULinks)
 {
-    <Link UserLink="@ul" />
+    <Link UserLinkVM="@ul" />
 }
 
 @code{
-    private List<UserLink> UserLinks { get; set; }
-    private List<UserLinkViewModel> ULinkVM { get; set; }
+    private List<UserLinkViewModel> ULinks { get; set; }
 
     protected override void OnInitialized() {
         base.OnInitialized();
-        UserLinks = GetUserLinks();
-        ULinkVM = GetUserLinkViewModels();
+        ULinks = GetUserLinkViewModels();
     }
 
     private void DoFilter(ChangeEventArgs args) {
@@ -27,7 +25,7 @@
 
         if (string.IsNullOrWhiteSpace(searchText)) return;
 
-        foreach(var ul in ULinkVM) {
+        foreach(var ul in ULinks) {
             ul.Hidden = !IsMatch(ul.UserLink, searchText);
         }
     }
