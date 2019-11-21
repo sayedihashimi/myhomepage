@@ -1,0 +1,30 @@
+﻿
+<h3>Add a new link</h3>
+
+<ul>
+    <li><label for="newlinktext">Text:</label><input id="newlinktext" @bind="@(UserLink.Text)"/></li>
+    <li><label for="newlinkurl">URL:</label><input id="newlinkurl" type="text" @bind="@(UserLink.Url)" /></li>
+    <li><label for="newlinkimageurl">Image URL:</label><input id="newlinkimageurl" type="text" @bind="@(UserLink.ImageUrl)" /></li>
+    <li>
+        <label for="newlinkinvertcolors">Invert image colors:</label>
+        <select id="newlinkinvertcolors" class="cleanSelect" @bind="UserLink.InvertImageColors">
+            <option value="true">true</option>
+            <option value="false">false</option>
+        </select>
+    </li>
+</ul>
+
+<button @onclick="DoAddNewLink">Add new link</button>
+
+@code {
+    public UserLink UserLink { get; set; } = new UserLink();
+    public bool RemoveMe { get; set; }
+    public void DoAddNewLink() {
+        Console.WriteLine($@"
+Text: {UserLink.Text}
+Url: {UserLink.Url}
+ImageUrl: {UserLink.ImageUrl}
+InvertImageColors: {UserLink.InvertImageColors}
+");
+    }
+}
