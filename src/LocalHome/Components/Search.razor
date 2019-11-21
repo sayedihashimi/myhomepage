@@ -7,7 +7,8 @@
         <input class="search-google" id="inputTextSearchFilter" @bind="SearchText" type="text"
                placeholder="Search or filter"
                @oninput="EventCallback.Factory.CreateBinder<string>(this, __value => SearchText = __value, SearchText)"
-               @onkeypress="KeyWasPressed" />
+               @onkeypress="KeyWasPressed"
+               @onkeydown="KeyWasPressed"/>
         <select class="cleanSelect" @bind="SearchProvider">
             <option value="google">Google</option>
             <option value="github">GitHub</option>
@@ -17,6 +18,8 @@
 @code {
     string SearchText { get; set; }
     string SearchProvider { get; set; }
+    [Parameter]
+    public EventCallback<ChangeEventArgs> OnFilter { get; set; }
 
     protected override void OnAfterRender(bool firstRender) {
         base.OnAfterRender(firstRender);
@@ -25,10 +28,15 @@
 
     public void KeyWasPressed(KeyboardEventArgs args)
     {
+        DoFilter(SearchText);
         if (args.Code == "Enter")
         {
             PerformSearch(SearchText);
         }
+    }
+    public async Task DoFilter(string searchText) {
+        Console.WriteLine($"searchText: '{searchText}'");
+        await OnFilter.InvokeAsync(new ChangeEventArgs { Value = SearchText });
     }
     public void PerformSearch(string searchText)
     {

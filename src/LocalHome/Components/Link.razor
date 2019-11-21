@@ -1,16 +1,16 @@
-﻿<div class="userlink-container">
-    <a class="userlink" href="@UserLink.Url" target="_blank">
-        <div class="@GetImageClassString()"><img src="@UserLink.ImageUrl" alt="@UserLink.ImageUrl" /></div>
-        <div class="userlink-text">@UserLink.Text</div>
+﻿<div class="userlink-container" hidden="@(UserLink.Hidden)">
+    <a class="userlink" href="@UserLink.UserLink.Url" target="_blank">
+        <div class="@GetImageClassString()"><img src="@UserLink.UserLink.ImageUrl" alt="@UserLink.UserLink.ImageUrl" /></div>
+        <div class="userlink-text">@UserLink.UserLink.Text</div>
     </a>
 </div>
 @code {
     [Parameter]
-    public IUserLink UserLink { get; set; }
+    public UserLinkViewModel UserLink { get; set; }
 
     string GetImageClassString() {
         var classstr = "userlink-image";
-        if (UserLink.InvertImageColors) {
+        if (UserLink.UserLink.InvertImageColors) {
             classstr += " invert";
         }
         return classstr;
