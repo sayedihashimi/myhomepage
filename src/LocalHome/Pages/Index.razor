@@ -14,23 +14,27 @@
 @code{
     private List<UserLinkViewModel> ULinks { get; set; }
 
-    protected override void OnInitialized() {
+    protected override void OnInitialized()
+    {
         base.OnInitialized();
         ULinks = GetUserLinkViewModels();
     }
 
-    private void DoFilter(ChangeEventArgs args) {
+    private void DoFilter(ChangeEventArgs args)
+    {
         Console.WriteLine($"inside Index.Razor->DoFilter: {args.Value}");
         string searchText = args.Value as string;
 
         if (string.IsNullOrWhiteSpace(searchText)) return;
 
-        foreach(var ul in ULinks) {
+        foreach (var ul in ULinks)
+        {
             ul.Hidden = !IsMatch(ul.UserLink, searchText);
         }
     }
 
-    private bool IsMatch(UserLink userLink, string searchText) {
+    private bool IsMatch(UserLink userLink, string searchText)
+    {
         var strtosearch = $"{userLink.Text};{userLink.ImageUrl};{userLink.Url}";
         return strtosearch.Contains(searchText, StringComparison.OrdinalIgnoreCase);
     }
@@ -42,4 +46,5 @@
 @*
     Links to consider for later on:
         https://simpleicons.org/
+        https://www.delta.com/us/en/check-in-security/overview
 *@
