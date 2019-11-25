@@ -100,5 +100,10 @@
     "ImageUrl": "/images/simpleicons.ico",
     "Url": "https://simpleicons.org/",
     "InvertImageColors": false
+  },
+  {
+    "Text": "AzDo new query",
+    "ImageUrl": "/images/azure-devops-query.png",
+    "Url": "https://devdiv.visualstudio.com/DevDiv/_queries/query-edit/?newQuery=true&parentId=e4a11366-3eb6-4213-9adc-2bd9ba9577cc"
   }
 ]
