@@ -1,6 +1,11 @@
-﻿@inject IJSRuntime JSRuntime
-@using Microsoft.AspNetCore.Components
+﻿@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Hosting
+
+@inject IJSRuntime JSRuntime
 @inject NavigationManager NavManager
+@inject ISearchProviderJsonReader searchReader
+@inject IWebHostEnvironment WebHostEnv
+
     <div class="search-container">
         <div class="fakebox-search-icon"></div>
         @*The oninput is needed to enable getting the text value w/o the text box losing focus*@
@@ -8,21 +13,32 @@
                placeholder="Search or filter"
                @oninput="EventCallback.Factory.CreateBinder<string>(this, __value => SearchText = __value, SearchText)"
                @onkeypress="KeyWasPressed"
-               @onkeydown="KeyWasPressed"/>
-        <select class="cleanSelect" @bind="SearchProvider">
-            <option value="google">Google</option>
-            <option value="github">GitHub</option>
-            <option value="nuget">NuGet</option>
+               @onkeydown="KeyWasPressed" />
+        @if (SearchProviders != null && SearchProviders.Count > 0) {
+        @* TODO: Change this to InputSelect and see if the bug where the value is not bound initially is fixed *@
+        <select class="cleanSelect" @bind="SearchFormatUrl">
+            @foreach (var sp in SearchProviders)
+            {
+                <option value="@(sp.SearchUrl)">@(sp.DisplayName)</option>
+            }
         </select>
-    </div>
+        }
+        </div>
 
 @code {
     string SearchText { get; set; }
-    string SearchProvider { get; set; }
+    string SearchFormatUrl { get; set; }
+    List<SearchProvider> SearchProviders { get; set; }
+
     [Parameter]
     public EventCallback<ChangeEventArgs> OnFilter { get; set; }
 
-    protected override void OnAfterRender(bool firstRender) {
+    protected override async Task OnInitializedAsync() {
+        SearchProviders = await GetSearchProvidersAsync();
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
         base.OnAfterRender(firstRender);
         GetFocus("inputTextSearchFilter");
     }
@@ -35,26 +51,26 @@
             PerformSearch(SearchText);
         }
     }
-    public async Task DoFilter(string searchText) {
+    public async Task DoFilter(string searchText)
+    {
         Console.WriteLine($"searchText: '{searchText}'");
         await OnFilter.InvokeAsync(new ChangeEventArgs { Value = SearchText });
     }
     public void PerformSearch(string searchText)
     {
-        if(SearchProvider == "github") {
-            NavManager.NavigateTo($"https://github.com/search?q={searchText}");
-        }
-        else if(SearchProvider == "nuget") {
-            NavManager.NavigateTo($"https://www.nuget.org/packages?q={SearchText}");
-        }
-        else {
-            // default to google
-            NavManager.NavigateTo($"https://www.google.com/search?q={searchText}");
-        }
+        if (SearchFormatUrl == null) { SearchFormatUrl = "https://www.google.com/search?q={0}"; }
+        NavManager.NavigateTo(string.Format(SearchFormatUrl, searchText));
     }
-    public void GetFocus(string controlId) {
+    public void GetFocus(string controlId)
+    {
         // inputTextSearchFilter
         var obj = JSRuntime.InvokeAsync<string>(
             "MySetFocus", controlId);
+    }
+    private async Task<List<SearchProvider>> GetSearchProvidersAsync()
+    {
+        // TODO: get from some service
+        string filepath = System.IO.Path.Combine(WebHostEnv.WebRootPath, "search.json");
+        return await searchReader.GetSearchProvidersFromFileAsync(filepath);
     }
 }

@@ -1,0 +1,15 @@
+﻿[
+  {
+    "DisplayName": "google",
+    "SearchUrl": "https://www.google.com/search?q={0}",
+    "IsDefault": true
+  },
+  {
+    "DisplayName": "github",
+    "SearchUrl": "https://github.com/search?q={0}"
+  },
+  {
+    "DisplayName": "nuget",
+    "SearchUrl": "https://www.nuget.org/packages?q={0}"
+  }
+]

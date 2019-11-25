@@ -31,6 +31,7 @@ namespace LocalHome {
             services.AddSingleton<IUserLinkJsonReader,UserLinkJsonReader>();
             services.AddSingleton<IUserLinkJsonWriter, UserLinkJsonWriter>();
             services.AddScoped<IAddLinkToJsonFileService, AddLinkToJsonFileService>();
+            services.AddSingleton<ISearchProviderJsonReader, SearchProviderJsonReader>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
