@@ -96,7 +96,10 @@ input[type='checkbox']{
     height:20px;
     width:20px;
     vertical-align:middle;
-
+}
+select {
+    appearance: none;
+    -webkit-appearance: none;
 }
     button:hover, input:hover, select:hover {
         border-color: #888;
