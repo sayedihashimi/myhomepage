@@ -6,7 +6,7 @@
 
 <Search OnFilter="DoFilter" />
 
-if(ULinks != null){
+@if(ULinks != null && ULinks.Count > 0){
     @foreach (var ul in ULinks)
     {
         <Link UserLinkVM="@ul" />
