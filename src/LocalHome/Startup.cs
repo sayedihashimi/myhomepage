@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using LocalHome.Data;
 using LocalHome.Shared;
+using LocalHome.Services;
+using System.IO;
 
 namespace LocalHome {
     public class Startup {
@@ -27,6 +29,8 @@ namespace LocalHome {
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<IUserLinkJsonReader,UserLinkJsonReader>();
+            //services.AddSingleton<IUserLinkJsonWriter, UserLinkJsonWriter>();
+            //services.AddScoped<IAddLinkToJsonFileService, AddLinkToJsonFileService>();
             //services.AddSingleton<IWebHostEnvironment,Microsoft.AspNetCore
         }
 

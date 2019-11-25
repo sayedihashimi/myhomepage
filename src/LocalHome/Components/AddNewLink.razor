@@ -2,36 +2,38 @@
 <h3>Add a new link</h3>
 
 <EditForm Model="@UserLink" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
     <ul>
         <li>
             <label for="newlinktext">Text:</label>
-            <InputText id="newlinktext" @bind-Value="UserLink.Text"/>
+            <InputText id="newlinktext" @bind-Value="UserLink.Text" />
             <ValidationMessage For="@(()=>UserLink.Text)" />
         </li>
         <li>
             <label for="newlinkurl">URL:</label>
-            <InputText id="newlinkurl" type="text" bind="@(UserLink.Url)" /></li>
+            <InputText id="newlinkurl" type="text" @bind-Value="UserLink.Url" />
+            <ValidationMessage For="@(()=>UserLink.Url)" />
+        </li>
         <li>
             <label for="newlinkimageurl">Image URL:</label>
-            <input id="newlinkimageurl" type="text" bind="@(UserLink.ImageUrl)" /></li>
+            <InputText id="newlinkimageurl" type="text" @bind-Value="UserLink.ImageUrl" />
+            <ValidationMessage For="@(()=>UserLink.ImageUrl)" />
+        </li>
         <li>
             <label for="newlinkinvertcolors">Invert image colors:</label>
-            <select id="newlinkinvertcolors" class="cleanSelect" bind="UserLink.InvertImageColors">
-                <option value="true">true</option>
-                <option value="false">false</option>
-            </select>
+            <InputCheckbox id="newlinkinvertcolors" @bind-Value="UserLink.InvertImageColors" />
+            <ValidationMessage For="@(()=>UserLink.InvertImageColors)" />
         </li>
     </ul>
-    <input type="submit" value="Add new link (1)" />
+    <input type="submit" value="Add new link" />
 </EditForm>
-<button @onclick="DoAddNewLink">Add new link</button>
 
 @code {
     public UserLink UserLink { get; set; } = new UserLink();
     public bool RemoveMe { get; set; }
 
     public void HandleValidSubmit() {
-        LogInfo();
+        DoAddNewLink();
     }
 
     public void DoAddNewLink() {

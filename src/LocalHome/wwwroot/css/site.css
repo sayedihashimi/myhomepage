@@ -9,6 +9,16 @@ html, body {
 .hidden{
     display:none;
 }
+.validation-message {
+    color: red;
+    display: inline-block;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.invalid{
+    border-color: red;
+}
 .userlink-container {
     background-color: #404040;
     display: inline-block;
@@ -80,10 +90,13 @@ button, input, select {
     border: 1px solid #aaa;
     box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
     border-radius: .5em;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
     background-color: #fff;
+}
+input[type='checkbox']{
+    height:20px;
+    width:20px;
+    vertical-align:middle;
+
 }
     button:hover, input:hover, select:hover {
         border-color: #888;

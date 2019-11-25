@@ -26,9 +26,9 @@
         GetFocus("inputTextSearchFilter");
     }
 
-    public void KeyWasPressed(KeyboardEventArgs args)
+    public async Task KeyWasPressed(KeyboardEventArgs args)
     {
-        DoFilter(SearchText);
+        await DoFilter(SearchText);
         if (args.Code == "Enter")
         {
             PerformSearch(SearchText);
