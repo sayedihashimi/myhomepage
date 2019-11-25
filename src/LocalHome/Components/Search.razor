@@ -12,6 +12,7 @@
         <select class="cleanSelect" @bind="SearchProvider">
             <option value="google">Google</option>
             <option value="github">GitHub</option>
+            <option value="nuget">NuGet</option>
         </select>
     </div>
 
@@ -42,6 +43,9 @@
     {
         if(SearchProvider == "github") {
             NavManager.NavigateTo($"https://github.com/search?q={searchText}");
+        }
+        else if(SearchProvider == "nuget") {
+            NavManager.NavigateTo($"https://www.nuget.org/packages?q={SearchText}");
         }
         else {
             // default to google

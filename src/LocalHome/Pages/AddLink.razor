@@ -1,8 +1,21 @@
 ﻿@page "/addlink"
+@inject IAddLinkToJsonFileService addLinkService
+@inject IWebHostEnvironment WebHostEnv
+@using System.IO
+@using Microsoft.AspNetCore.Hosting
 
-<AddNewLink />
+<AddNewLink OnNewLink="@HandleNewLink" />
 
 
 @code {
+    public async Task HandleNewLink(UserLinkEventArgs ul)
+    {
+        Console.WriteLine("inside of new link");
 
+        if (ul != null && ul.UserLink != null) {
+            // TODO: Should get this from some service as well
+            string filepath = Path.Combine(WebHostEnv.WebRootPath, "sayedha.json");
+            await addLinkService.AddLinkAsync(filepath, ul.UserLink);
+        }
+    }
 }

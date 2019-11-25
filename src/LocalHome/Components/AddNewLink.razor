@@ -32,8 +32,13 @@
     public UserLink UserLink { get; set; } = new UserLink();
     public bool RemoveMe { get; set; }
 
-    public void HandleValidSubmit() {
+    [Parameter]
+    public EventCallback<UserLinkEventArgs> OnNewLink { get; set; }
+
+    public async Task HandleValidSubmit() {
         DoAddNewLink();
+
+        await OnNewLink.InvokeAsync(new UserLinkEventArgs(UserLink));
     }
 
     public void DoAddNewLink() {

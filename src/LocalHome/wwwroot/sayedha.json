@@ -1,97 +1,104 @@
-﻿[
+[
   {
     "Text": "Reset MSFT Password",
+    "ImageUrl": "/images/msft-favicon.ico",
     "Url": "https://sspm.microsoft.com/",
-    "ImageUrl": "/images/msft-favicon.ico"
+    "InvertImageColors": false
   },
   {
     "Text": "Create new AzDo Bug",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
     "ImageUrl": "/images/bug.svg",
+    "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
     "InvertImageColors": true
   },
   {
     "Text": "Team calendar",
-    "Url": "http://aka.ms/vsm",
     "ImageUrl": "/images/calendar2.svg",
+    "Url": "http://aka.ms/vsm",
     "InvertImageColors": true
   },
   {
     "Text": "Pluralsight",
+    "ImageUrl": "/images/pluralsight.png",
     "Url": "https://aka.ms/pluralsight",
-    "ImageUrl": "/images/pluralsight.png"
+    "InvertImageColors": false
   },
   {
     "Text": "VSMac Team SharePoint site",
+    "ImageUrl": "/images/sharepoint-300px.png",
     "Url": "hhttps://microsoft.sharepoint.com/teams/vsformac/",
-    "ImageUrl": "/images/sharepoint-300px.png"
+    "InvertImageColors": false
   },
   {
     "Text": "Visual Studio for Mac blog posts",
-    "Url": "https://devblogs.microsoft.com/visualstudio/tag/visual-studio-for-mac/",
     "ImageUrl": "/images/blog-post.svg",
+    "Url": "https://devblogs.microsoft.com/visualstudio/tag/visual-studio-for-mac/",
     "InvertImageColors": true
   },
   {
     "Text": "RECON Repository",
+    "ImageUrl": "/images/azure-devops.png",
     "Url": "https://devdiv.visualstudio.com/DevDiv/_git/RECON",
-    "ImageUrl": "/images/azure-devops.png"
+    "InvertImageColors": false
   },
   {
     "Text": "MSTravel",
+    "ImageUrl": "/images/mstravel.png",
     "Url": "https://aka.ms/mstravel",
-    "ImageUrl": "/images/mstravel.png"
+    "InvertImageColors": false
   },
   {
     "Text": "Pillar docs",
+    "ImageUrl": "/images/pillar.svg",
     "Url": "http://aka.ms/dts-pillar",
-    "ImageUrl": "/images/pillar.svg"
+    "InvertImageColors": false
   },
   {
     "Text": "OKR Site",
-    "Url": "https://aka.ms/devdivokrs",
     "ImageUrl": "/images/ok.svg",
+    "Url": "https://aka.ms/devdivokrs",
     "InvertImageColors": true
   },
   {
     "Text": ".NET Core Azure DevOps",
+    "ImageUrl": "/images/azure-devops-csharp.png",
     "Url": "https://devdiv.visualstudio.com/DevDiv/_backlogs/backlog/VS%20for%20Mac%20-%20.NET%20Core%20and%20Azure/Experiences",
-    "ImageUrl": "/images/azure-devops-csharp.png"
+    "InvertImageColors": false
   },
   {
     "Text": "Docs - backlog",
+    "ImageUrl": "/images/msft-docs.png",
     "Url": "https://devdiv.visualstudio.com/DevDiv/_boards/board/t/VS%20for%20Mac%20-%20Documentation/Stories?showParents=true",
-    "ImageUrl": "/images/msft-docs.png"
+    "InvertImageColors": false
   },
   {
     "Text": "Telemetry Queries - GitHub",
-    "Url": "https://github.com/xamarin/telemetry-queries",
     "ImageUrl": "/images/chart.svg",
+    "Url": "https://github.com/xamarin/telemetry-queries",
     "InvertImageColors": true
   },
   {
     "Text": "Kusto - VSMac",
+    "ImageUrl": "/images/kusto.png",
     "Url": "https://web.kusto.windows.net/clusters/ddteldata/databases/VSMac",
-    "ImageUrl": "/images/kusto.png"
+    "InvertImageColors": false
   },
   {
     "Text": "Docs - telemetry",
+    "ImageUrl": "/images/msft-favicon.ico",
     "Url": "http://aka.ms/contentdash",
-    "ImageUrl": "/images/msft-favicon.ico"
+    "InvertImageColors": false
   },
   {
-    "Text": "Create new AzDo Bug",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
-    "ImageUrl": "/images/bug.svg"
+    "Text": "Delta checkin",
+    "ImageUrl": "/images/delta.svg",
+    "Url": "https://www.delta.com/us/en/check-in-security/overview",
+    "InvertImageColors": false
   },
   {
-    "Text": "Reset MSFT Password",
-    "Url": "https://sspm.microsoft.com/",
-    "ImageUrl": "/images/msft-favicon.ico"
-  },
-  {
-    "Text": "Create new AzDo Bug",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
-    "ImageUrl": "/images/bug.svg"
+    "Text": "SimpleIcons (svg for many brands)",
+    "ImageUrl": "/images/simpleicons.ico",
+    "Url": "https://simpleicons.org/",
+    "InvertImageColors": false
   }
 ]
