@@ -11,5 +11,13 @@
   {
     "DisplayName": "nuget",
     "SearchUrl": "https://www.nuget.org/packages?q={0}"
+  },
+  {
+    "DisplayName": "youtube",
+    "SearchUrl": "https://www.youtube.com/results?search_query={0}"
+  },
+  {
+    "DisplayName": "iconfinder",
+    "SearchUrl": "https://www.iconfinder.com/search/?q={0}&from=homepage&price=free"
   }
 ]

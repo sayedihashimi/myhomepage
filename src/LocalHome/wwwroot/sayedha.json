@@ -93,17 +93,28 @@
     "Text": "Delta checkin",
     "ImageUrl": "/images/delta.svg",
     "Url": "https://www.delta.com/us/en/check-in-security/overview",
-    "InvertImageColors": false
+    "InvertImageColors": true
   },
   {
     "Text": "SimpleIcons (svg for many brands)",
     "ImageUrl": "/images/simpleicons.ico",
     "Url": "https://simpleicons.org/",
-    "InvertImageColors": false
+    "InvertImageColors": true
   },
   {
     "Text": "AzDo new query",
     "ImageUrl": "/images/azure-devops-query.png",
     "Url": "https://devdiv.visualstudio.com/DevDiv/_queries/query-edit/?newQuery=true&parentId=e4a11366-3eb6-4213-9adc-2bd9ba9577cc"
+  },
+  {
+    "Text": "whodogfoods",
+    "ImageUrl": "/images/whodogfoods.jpg",
+    "Url": "https://whodogfoods.vsdata.io/Alias/sayedha?productName=VSForMac"
+  },
+  {
+    "Text": "IconFinder",
+    "ImageUrl": "/images/iconfinder-favicon-96x96.png",
+    "Url": "https://www.iconfinder.com/search/?q=dogfood&from=homepage",
+    "InvertImageColors": true
   }
 ]
