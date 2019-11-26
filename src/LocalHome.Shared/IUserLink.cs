@@ -4,5 +4,6 @@
         string ImageUrl { get; set; }
         string Url { get; set; }
         bool InvertImageColors { get; set; }
+        string BackgroundColor { get; set; }
     }
 }

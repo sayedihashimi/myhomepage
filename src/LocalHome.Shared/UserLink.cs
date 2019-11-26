@@ -10,5 +10,6 @@ namespace LocalHome.Shared {
         [Required(AllowEmptyStrings = false, ErrorMessage = "Url is required")]
         public string Url { get; set; }
         public bool InvertImageColors { get; set; }
+        public string BackgroundColor { get; set; }
     }
 }

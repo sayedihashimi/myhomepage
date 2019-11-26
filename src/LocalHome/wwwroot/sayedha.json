@@ -93,7 +93,7 @@
     "Text": "Delta checkin",
     "ImageUrl": "/images/delta.svg",
     "Url": "https://www.delta.com/us/en/check-in-security/overview",
-    "InvertImageColors": true
+    "BackgroundColor": "white"
   },
   {
     "Text": "SimpleIcons (svg for many brands)",
@@ -114,7 +114,6 @@
   {
     "Text": "IconFinder",
     "ImageUrl": "/images/iconfinder-favicon-96x96.png",
-    "Url": "https://www.iconfinder.com/search/?q=dogfood&from=homepage",
-    "InvertImageColors": true
+    "Url": "https://www.iconfinder.com/search/?q=dogfood&from=homepage"
   }
 ]

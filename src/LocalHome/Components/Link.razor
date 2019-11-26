@@ -1,7 +1,18 @@
 ﻿<div class="userlink-container" hidden="@(UserLinkVM.Hidden)">
     <a class="userlink" href="@UserLinkVM.UserLink.Url" target="_blank">
-        <div class="@GetImageClassString()"><img src="@UserLinkVM.UserLink.ImageUrl"
-                                                 alt="@UserLinkVM.UserLink.ImageUrl" /></div>
+        <div class="@GetImageClassString()">
+            @if (string.IsNullOrWhiteSpace(UserLinkVM.UserLink.BackgroundColor))
+            {
+                <img src="@UserLinkVM.UserLink.ImageUrl"
+                     alt="@UserLinkVM.UserLink.ImageUrl" />
+            }
+            else
+            {
+                <img src="@UserLinkVM.UserLink.ImageUrl"
+                     alt="@UserLinkVM.UserLink.ImageUrl"
+                     style="background-color:@(UserLinkVM.UserLink.BackgroundColor)" />
+            }
+        </div>
         <div class="userlink-text">@UserLinkVM.UserLink.Text</div>
     </a>
 </div>
