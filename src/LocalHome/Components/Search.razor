@@ -16,7 +16,7 @@
                @onkeydown="KeyWasPressed" />
         @if (SearchProviders != null && SearchProviders.Count > 0) {
         @* TODO: Change this to InputSelect and see if the bug where the value is not bound initially is fixed *@
-        <select class="cleanSelect" @bind="SearchFormatUrl">
+        <select class="cleanSelect" id="searchselect" @bind="SearchFormatUrl">
             @foreach (var sp in SearchProviders)
             {
                 <option value="@(sp.SearchUrl)">@(sp.DisplayName)</option>

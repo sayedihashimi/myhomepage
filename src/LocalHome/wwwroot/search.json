@@ -1,8 +1,11 @@
 ﻿[
   {
     "DisplayName": "google",
-    "SearchUrl": "https://www.google.com/search?q={0}",
-    "IsDefault": true
+    "SearchUrl": "https://www.google.com/search?q={0}"
+  },
+  {
+    "DisplayName": "bing",
+    "SearchUrl": "https://www.bing.com/search?q={0}"
   },
   {
     "DisplayName": "github",
@@ -11,6 +14,10 @@
   {
     "DisplayName": "nuget",
     "SearchUrl": "https://www.nuget.org/packages?q={0}"
+  },
+  {
+    "DisplayName": "twitter",
+    "SearchUrl": "https://twitter.com/search?q={0}"
   },
   {
     "DisplayName": "youtube",
