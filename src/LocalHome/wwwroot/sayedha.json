@@ -123,7 +123,7 @@
     "ImageUrl": "/images/iconfinder-favicon-96x96.png",
     "Url": "https://www.iconfinder.com/search/?q=dogfood&from=homepage",
     "InvertImageColors": false,
-    "BackgroundColor": null
+    "BackgroundColor": "white"
   },
   {
     "Text": "Pluralsight",
