@@ -1,5 +1,19 @@
 [
   {
+    "Text": "UTF-8 Icons",
+    "ImageUrl": "/images/utf8-icons.png",
+    "Url": "https://www.utf8icons.com/",
+    "InvertImageColors": false,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "Azure Portal",
+    "ImageUrl": "/images/azure-favicon.ico",
+    "Url": "https://portal.azure.com/",
+    "InvertImageColors": false,
+    "BackgroundColor": null
+  },
+  {
     "Text": "Create new AzDo Bug",
     "ImageUrl": "/images/bug.svg",
     "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
@@ -149,6 +163,50 @@
   {
     "Text": "ASP.NET Core docs",
     "ImageUrl": "/images/msft-docs.png",
-    "Url": "https://docs.asp.net/"
+    "Url": "https://docs.asp.net/",
+    "InvertImageColors": false,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "East Hampton HOA",
+    "ImageUrl": "/images/east-hampton.png",
+    "Url": "https://www.easthamptonjax.com",
+    "InvertImageColors": false,
+    "BackgroundColor": "white"
+  },
+  {
+    "Text": "Movies anywhere",
+    "ImageUrl": "/images/moviesanywhere-favicon.ico",
+    "Url": "https://moviesanywhere.com/movie/the-big-lebowski",
+    "InvertImageColors": false,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "Wikipedia",
+    "ImageUrl": "/images/wikipedia.ico",
+    "Url": "https://en.wikipedia.org/",
+    "InvertImageColors": false,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "SurveyMonkey",
+    "ImageUrl": "/images/survey-monkey.png",
+    "Url": "https://www.surveymonkey.com/",
+    "InvertImageColors": false,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "Google fonts",
+    "ImageUrl": "/images/google_fonts_lodp.ico",
+    "Url": "https://fonts.google.com",
+    "InvertImageColors": false,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "StackOverflow",
+    "ImageUrl": "/images/stackoverflow.ico",
+    "Url": "https://stackoverflow.com",
+    "InvertImageColors": false,
+    "BackgroundColor": null
   }
 ]
