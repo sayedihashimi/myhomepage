@@ -52,6 +52,7 @@
         }
         else if (string.Compare("Escape", args.Code, StringComparison.OrdinalIgnoreCase) == 0) {
             ClearSearchTextbox();
+            await DoFilter(string.Empty);
         }
         else if (string.Compare("ArrowDown", args.Code, StringComparison.OrdinalIgnoreCase) == 0) {
             SelectNextSearchProvider();

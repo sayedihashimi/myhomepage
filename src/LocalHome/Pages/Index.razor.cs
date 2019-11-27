@@ -40,11 +40,18 @@ namespace LocalHome.Pages {
             Console.WriteLine($"inside Index.Razor->DoFilter: {args.Value}");
             string searchText = args.Value as string;
 
-            if (string.IsNullOrWhiteSpace(searchText)) return;
-
-            foreach (var ul in ULinks) {
-                ul.Hidden = !IsMatch(ul.UserLink, searchText);
+            if (string.IsNullOrWhiteSpace(searchText)) {
+                // make them all visible
+                foreach (var ul in ULinks) {
+                    ul.Hidden = false;
+                }
             }
+            else {
+                foreach (var ul in ULinks) {
+                    ul.Hidden = !IsMatch(ul.UserLink, searchText);
+                }
+            }
+
         }
 
         protected bool IsMatch(UserLink userLink, string searchText) {
