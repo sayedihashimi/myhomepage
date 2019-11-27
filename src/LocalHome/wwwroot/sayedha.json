@@ -145,5 +145,10 @@
     "Url": "https://msit.microsoftstream.com/studio/videos",
     "InvertImageColors": false,
     "BackgroundColor": null
+  },
+  {
+    "Text": "ASP.NET Core docs",
+    "ImageUrl": "/images/msft-docs.png",
+    "Url": "https://docs.asp.net/"
   }
 ]

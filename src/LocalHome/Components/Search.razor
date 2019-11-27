@@ -9,9 +9,8 @@
     <div class="search-container">
         <div class="fakebox-search-icon"></div>
         @*The oninput is needed to enable getting the text value w/o the text box losing focus*@
-        <input class="searchAndFilter" id="inputTextSearchFilter" @bind="SearchText" type="text"
+        <input type="text" class="searchAndFilter" id="inputTextSearchFilter" @bind-value="SearchText" @bind-value:event="oninput"
                placeholder="Search or filter (esc to clear)"
-               @oninput="EventCallback.Factory.CreateBinder<string>(this, __value => SearchText = __value, SearchText)"
                @onkeypress="KeyWasPressed"
                @onkeydown="KeyWasPressed" />
         @if (SearchProviders != null && SearchProviders.Count > 0) {
