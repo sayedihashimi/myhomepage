@@ -30,7 +30,7 @@ html, body {
 .userlink-container {
     background-color: #1F2833;
     display: inline-block;
-    margin: 10px;
+    margin-bottom: 5px;
     padding: 10px;
 }
     .userlink-container:hover {
