@@ -14,6 +14,16 @@
                @onkeypress="KeyWasPressed"
                @onkeydown="KeyWasPressed" />
         @if (SearchProviders != null && SearchProviders.Count > 0) {
+
+        @foreach(var sp in SearchProviders) {
+            if (!string.IsNullOrWhiteSpace(sp.BackgroundColor)) {
+                <img class="searchIcon" src="@sp.ImageUrl" height="40" width="40" style="background-color: @(sp.BackgroundColor)"/>
+            }
+            else {
+                <img class="searchIcon" src="@sp.ImageUrl" height="40" width="40"/>
+            }
+        }
+
         @* TODO: Change this to InputSelect and see if the bug where the value is not bound initially is fixed *@
         <select class="cleanSelect" id="searchselect" @bind="SearchFormatUrl">
             @foreach (var sp in SearchProviders)

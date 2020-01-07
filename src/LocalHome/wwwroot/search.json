@@ -1,46 +1,59 @@
 ﻿[
   {
     "DisplayName": "google",
-    "SearchUrl": "https://www.google.com/search?q={0}"
+    "SearchUrl": "https://www.google.com/search?q={0}",
+    "ImageUrl": "/images/google-favicon.ico"
   },
   {
     "DisplayName": "bing",
-    "SearchUrl": "https://www.bing.com/search?q={0}"
+    "SearchUrl": "https://www.bing.com/search?q={0}",
+    "ImageUrl": "/images/bing-favicon.ico"
   },
   {
     "DisplayName": "UTF-8 Icons",
-    "SearchUrl": "https://www.utf8icons.com/search?query={0}"
+    "SearchUrl": "https://www.utf8icons.com/search?query={0}",
+    "ImageUrl": "/images/utf8-icons.png"
   },
   {
     "DisplayName": "github",
-    "SearchUrl": "https://github.com/search?q={0}"
+    "SearchUrl": "https://github.com/search?q={0}",
+    "ImageUrl": "/images/github.svg",
+    "BackgroundColor": "white"
   },
   {
     "DisplayName": "nuget",
-    "SearchUrl": "https://www.nuget.org/packages?q={0}"
+    "SearchUrl": "https://www.nuget.org/packages?q={0}",
+    "ImageUrl": "/images/nuget-favicon.ico"
   },
   {
     "DisplayName": "twitter",
-    "SearchUrl": "https://twitter.com/search?q={0}"
+    "SearchUrl": "https://twitter.com/search?q={0}",
+    "ImageUrl": "/images/twitter.ico"
   },
   {
     "DisplayName": "youtube",
-    "SearchUrl": "https://www.youtube.com/results?search_query={0}"
+    "SearchUrl": "https://www.youtube.com/results?search_query={0}",
+    "ImageUrl": "/images/youtube-favicon.png"
   },
   {
     "DisplayName": "iconfinder",
-    "SearchUrl": "https://www.iconfinder.com/search/?q={0}&from=homepage&price=free"
+    "SearchUrl": "https://www.iconfinder.com/search/?q={0}&from=homepage&price=free",
+    "ImageUrl": "/images/iconfinder-favicon-96x96.png",
+    "BackgroundColor": "white"
   },
   {
     "DisplayName": "reddit",
-    "SearchUrl": "https://www.reddit.com/search/?q={0}"
+    "SearchUrl": "https://www.reddit.com/search/?q={0}",
+    "ImageUrl": "/images/reddit-icon-152x152.png"
   },
   {
     "DisplayName": "wikipedia",
-    "SearchUrl": "https://en.wikipedia.org/wiki/{0}"
+    "SearchUrl": "https://en.wikipedia.org/wiki/{0}",
+    "ImageUrl": "/images/wikipedia.ico"
   },
   {
     "DisplayName": "stackoverflow",
-    "SearchUrl": "https://stackoverflow.com/search?q={0}"
+    "SearchUrl": "https://stackoverflow.com/search?q={0}",
+    "ImageUrl": "/images/stackoverflow.ico"
   }
 ]

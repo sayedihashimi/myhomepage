@@ -4,6 +4,7 @@ namespace LocalHome.Shared {
 
         public string DisplayName { get; set; }
         public string SearchUrl { get; set; }
-        public bool IsDefault { get; set; }
+        public string ImageUrl { get; set; }
+        public string BackgroundColor { get; set; }
     }
 }

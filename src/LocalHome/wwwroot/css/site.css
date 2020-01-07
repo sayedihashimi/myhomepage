@@ -74,14 +74,22 @@ html, body {
         padding: 3px;
     }
 
-
+.searchIcon{
+    margin-right:10px;
+}
+    .searchIcon[selected] {
+        border-style: solid;
+        border-color: #45A29E;
+        border-width:0;
+        border-bottom-width: 3px;
+    }
 .search-container {
     padding-bottom:10px;
     width:100%;
 }
 .searchAndFilter {
     border-radius: 10px;
-    width:80%;
+    width:800px;
     padding-left:40px;
 }
 .fakebox-search-icon {
@@ -118,6 +126,7 @@ button, input, select {
 #searchselect {
     padding-right: 3em;
     color: #0B0C10;
+    display:block;
 }
 input[type='checkbox']{
     height:20px;

@@ -1,212 +1,239 @@
-[
-  {
-    "Text": "UTF-8 Icons",
-    "ImageUrl": "/images/utf8-icons.png",
-    "Url": "https://www.utf8icons.com/",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Azure Portal",
-    "ImageUrl": "/images/azure-favicon.ico",
-    "Url": "https://portal.azure.com/",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Create new AzDo Bug",
-    "ImageUrl": "/images/bug.svg",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
-    "InvertImageColors": true,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Team calendar",
-    "ImageUrl": "/images/calendar2.svg",
-    "Url": "http://aka.ms/vsm",
-    "InvertImageColors": true,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "VSMac Team SharePoint site",
-    "ImageUrl": "/images/sharepoint-300px.png",
-    "Url": "hhttps://microsoft.sharepoint.com/teams/vsformac/",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Visual Studio for Mac blog posts",
-    "ImageUrl": "/images/blog-post.svg",
-    "Url": "https://devblogs.microsoft.com/visualstudio/tag/visual-studio-for-mac/",
-    "InvertImageColors": true,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "RECON Repository",
-    "ImageUrl": "/images/azure-devops.png",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/_git/RECON",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "MSTravel",
-    "ImageUrl": "/images/mstravel.png",
-    "Url": "https://aka.ms/mstravel",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Pillar docs",
-    "ImageUrl": "/images/pillar.svg",
-    "Url": "http://aka.ms/dts-pillar",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "OKR Site",
-    "ImageUrl": "/images/ok.svg",
-    "Url": "https://aka.ms/devdivokrs",
-    "InvertImageColors": true,
-    "BackgroundColor": null
-  },
-  {
-    "Text": ".NET Core Azure DevOps",
-    "ImageUrl": "/images/azure-devops-csharp.png",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/_backlogs/backlog/VS%20for%20Mac%20-%20.NET%20Core%20and%20Azure/Experiences",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Docs - backlog",
-    "ImageUrl": "/images/msft-docs.png",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/_boards/board/t/VS%20for%20Mac%20-%20Documentation/Stories?showParents=true",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Telemetry Queries - GitHub",
-    "ImageUrl": "/images/chart.svg",
-    "Url": "https://github.com/xamarin/telemetry-queries",
-    "InvertImageColors": true,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Kusto - VSMac",
-    "ImageUrl": "/images/kusto.png",
-    "Url": "https://web.kusto.windows.net/clusters/ddteldata/databases/VSMac",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Docs - telemetry",
-    "ImageUrl": "/images/msft-favicon.ico",
-    "Url": "http://aka.ms/contentdash",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Delta checkin",
-    "ImageUrl": "/images/delta.svg",
-    "Url": "https://www.delta.com/us/en/check-in-security/overview",
-    "InvertImageColors": false,
-    "BackgroundColor": "white"
-  },
-  {
-    "Text": "SimpleIcons (svg for many brands)",
-    "ImageUrl": "/images/simpleicons.ico",
-    "Url": "https://simpleicons.org/",
-    "InvertImageColors": true,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "AzDo new query",
-    "ImageUrl": "/images/azure-devops-query.png",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/_queries/query-edit/?newQuery=true&parentId=e4a11366-3eb6-4213-9adc-2bd9ba9577cc",
-    "InvertImageColors": false,
-    "BackgroundColor": "white"
-  },
-  {
-    "Text": "whodogfoods",
-    "ImageUrl": "/images/whodogfoods.jpg",
-    "Url": "https://whodogfoods.vsdata.io/Alias/sayedha?productName=VSForMac",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "IconFinder",
-    "ImageUrl": "/images/iconfinder-favicon-96x96.png",
-    "Url": "https://www.iconfinder.com/search/?q=dogfood&from=homepage",
-    "InvertImageColors": false,
-    "BackgroundColor": "white"
-  },
-  {
-    "Text": "Pluralsight",
-    "ImageUrl": "/images/pluralsight.png",
-    "Url": "https://aka.ms/pluralsight",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Reset MSFT Password",
-    "ImageUrl": "/images/msft-favicon.ico",
-    "Url": "https://sspm.microsoft.com/",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "My videos (microsoft streams)",
-    "ImageUrl": "/images/streams-favicon.ico",
-    "Url": "https://msit.microsoftstream.com/studio/videos",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "ASP.NET Core docs",
-    "ImageUrl": "/images/msft-docs.png",
-    "Url": "https://docs.asp.net/",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "East Hampton HOA",
-    "ImageUrl": "/images/east-hampton.png",
-    "Url": "https://www.easthamptonjax.com",
-    "InvertImageColors": false,
-    "BackgroundColor": "white"
-  },
-  {
-    "Text": "Movies anywhere",
-    "ImageUrl": "/images/moviesanywhere-favicon.ico",
-    "Url": "https://moviesanywhere.com/movie/the-big-lebowski",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Wikipedia",
-    "ImageUrl": "/images/wikipedia.ico",
-    "Url": "https://en.wikipedia.org/",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "SurveyMonkey",
-    "ImageUrl": "/images/survey-monkey.png",
-    "Url": "https://www.surveymonkey.com/",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "Google fonts",
-    "ImageUrl": "/images/google_fonts_lodp.ico",
-    "Url": "https://fonts.google.com",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  },
-  {
-    "Text": "StackOverflow",
-    "ImageUrl": "/images/stackoverflow.ico",
-    "Url": "https://stackoverflow.com",
-    "InvertImageColors": false,
-    "BackgroundColor": null
-  }
+[{
+        "Text": "UTF-8 Icons",
+        "ImageUrl": "/images/utf8-icons.png",
+        "Url": "https://www.utf8icons.com/",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Azure Portal",
+        "ImageUrl": "/images/azure-favicon.ico",
+        "Url": "https://portal.azure.com/",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Create new AzDo Bug",
+        "ImageUrl": "/images/bug.svg",
+        "Url": "https://devdiv.visualstudio.com/DevDiv/Xamarin%20VS%20for%20Mac/_workitems/create/Bug#",
+        "InvertImageColors": true,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "AzDo - my team",
+        "ImageUrl": "/images/bug.svg",
+        "Url": "https://devdiv.visualstudio.com/DevDiv/_backlogs/backlog/VS%20for%20Mac%20-%20.NET%20Core%20and%20Azure/Experiences",
+        "InvertImageColors": true,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Team calendar",
+        "ImageUrl": "/images/calendar2.svg",
+        "Url": "http://aka.ms/vsm",
+        "InvertImageColors": true,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "VSMac Team SharePoint site",
+        "ImageUrl": "/images/sharepoint-300px.png",
+        "Url": "https://microsoft.sharepoint.com/teams/vsformac/",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Visual Studio for Mac blog posts",
+        "ImageUrl": "/images/blog-post.svg",
+        "Url": "https://devblogs.microsoft.com/visualstudio/tag/visual-studio-for-mac/",
+        "InvertImageColors": true,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "RECON Repository",
+        "ImageUrl": "/images/azure-devops.png",
+        "Url": "https://devdiv.visualstudio.com/DevDiv/_git/RECON",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "MSTravel",
+        "ImageUrl": "/images/mstravel.png",
+        "Url": "https://aka.ms/mstravel",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Pillar docs",
+        "ImageUrl": "/images/pillar.svg",
+        "Url": "http://aka.ms/dts-pillar",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "OKR Site",
+        "ImageUrl": "/images/ok.svg",
+        "Url": "https://aka.ms/devdivokrs",
+        "InvertImageColors": true,
+        "BackgroundColor": null
+    },
+    {
+        "Text": ".NET Core Azure DevOps",
+        "ImageUrl": "/images/azure-devops-csharp.png",
+        "Url": "https://devdiv.visualstudio.com/DevDiv/_backlogs/backlog/VS%20for%20Mac%20-%20.NET%20Core%20and%20Azure/Experiences",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Docs - backlog",
+        "ImageUrl": "/images/msft-docs.png",
+        "Url": "https://devdiv.visualstudio.com/DevDiv/_boards/board/t/VS%20for%20Mac%20-%20Documentation/Stories?showParents=true",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Telemetry Queries - GitHub",
+        "ImageUrl": "/images/chart.svg",
+        "Url": "https://github.com/xamarin/telemetry-queries",
+        "InvertImageColors": true,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Kusto - VSMac",
+        "ImageUrl": "/images/kusto.png",
+        "Url": "https://web.kusto.windows.net/clusters/ddteldata/databases/VSMac",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Docs - telemetry",
+        "ImageUrl": "/images/msft-favicon.ico",
+        "Url": "http://aka.ms/contentdash",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Delta checkin",
+        "ImageUrl": "/images/delta.svg",
+        "Url": "https://www.delta.com/us/en/check-in-security/overview",
+        "InvertImageColors": false,
+        "BackgroundColor": "white"
+    },
+    {
+        "Text": "SimpleIcons (svg for many brands)",
+        "ImageUrl": "/images/simpleicons.ico",
+        "Url": "https://simpleicons.org/",
+        "InvertImageColors": true,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "AzDo new query",
+        "ImageUrl": "/images/azure-devops-query.png",
+        "Url": "https://devdiv.visualstudio.com/DevDiv/_queries/query-edit/?newQuery=true&parentId=e4a11366-3eb6-4213-9adc-2bd9ba9577cc",
+        "InvertImageColors": false,
+        "BackgroundColor": "white"
+    },
+    {
+        "Text": "whodogfoods",
+        "ImageUrl": "/images/whodogfoods.jpg",
+        "Url": "https://whodogfoods.vsdata.io/Alias/sayedha?productName=VSForMac",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "IconFinder",
+        "ImageUrl": "/images/iconfinder-favicon-96x96.png",
+        "Url": "https://www.iconfinder.com/search/?q=dogfood&from=homepage",
+        "InvertImageColors": false,
+        "BackgroundColor": "white"
+    },
+    {
+        "Text": "Pluralsight",
+        "ImageUrl": "/images/pluralsight.png",
+        "Url": "https://aka.ms/pluralsight",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Reset MSFT Password",
+        "ImageUrl": "/images/msft-favicon.ico",
+        "Url": "https://sspm.microsoft.com/",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "My videos (microsoft streams)",
+        "ImageUrl": "/images/streams-favicon.ico",
+        "Url": "https://msit.microsoftstream.com/studio/videos",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "ASP.NET Core docs",
+        "ImageUrl": "/images/msft-docs.png",
+        "Url": "https://docs.asp.net/",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "East Hampton HOA",
+        "ImageUrl": "/images/east-hampton.png",
+        "Url": "https://www.easthamptonjax.com",
+        "InvertImageColors": false,
+        "BackgroundColor": "white"
+    },
+    {
+        "Text": "Movies anywhere",
+        "ImageUrl": "/images/moviesanywhere-favicon.ico",
+        "Url": "https://moviesanywhere.com/movie/the-big-lebowski",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Wikipedia",
+        "ImageUrl": "/images/wikipedia.ico",
+        "Url": "https://en.wikipedia.org/",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "SurveyMonkey",
+        "ImageUrl": "/images/survey-monkey.png",
+        "Url": "https://www.surveymonkey.com/",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Google fonts",
+        "ImageUrl": "/images/google_fonts_lodp.ico",
+        "Url": "https://fonts.google.com",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "StackOverflow",
+        "ImageUrl": "/images/stackoverflow.ico",
+        "Url": "https://stackoverflow.com",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "Cspell English Dictionary",
+        "ImageUrl": "",
+        "Url": "https://github.com/streetsidesoftware/cspell-dicts/tree/master/packages/en_US",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "IDWeb",
+        "ImageUrl": "",
+        "Url": "https://aka.ms/idweb",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    },
+    {
+        "Text": "CSS Fonts",
+        "ImageUrl": "",
+        "Url": "https://www.cssfontstack.com/Consolas",
+        "InvertImageColors": false,
+        "BackgroundColor": null
+    }
 ]

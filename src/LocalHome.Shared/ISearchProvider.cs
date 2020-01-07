@@ -2,6 +2,7 @@
     public interface ISearchProvider {
         string DisplayName { get; set; }
         string SearchUrl { get; set; }
-        bool IsDefault { get; set; }
+        string ImageUrl { get; set; }
+        string BackgroundColor { get; set; }
     }
 }
