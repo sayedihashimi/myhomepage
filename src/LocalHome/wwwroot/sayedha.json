@@ -21,6 +21,13 @@
     "BackgroundColor": null
   },
   {
+    "Text": "AzDo - my team",
+    "ImageUrl": "/images/bug.svg",
+    "Url": "https://devdiv.visualstudio.com/DevDiv/_backlogs/backlog/VS%20for%20Mac%20-%20.NET%20Core%20and%20Azure/Experiences",
+    "InvertImageColors": true,
+    "BackgroundColor": null
+  },
+  {
     "Text": "Team calendar",
     "ImageUrl": "/images/calendar2.svg",
     "Url": "http://aka.ms/vsm",
@@ -30,7 +37,7 @@
   {
     "Text": "VSMac Team SharePoint site",
     "ImageUrl": "/images/sharepoint-300px.png",
-    "Url": "hhttps://microsoft.sharepoint.com/teams/vsformac/",
+    "Url": "https://microsoft.sharepoint.com/teams/vsformac/",
     "InvertImageColors": false,
     "BackgroundColor": null
   },
@@ -207,6 +214,34 @@
     "ImageUrl": "/images/stackoverflow.ico",
     "Url": "https://stackoverflow.com",
     "InvertImageColors": false,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "Cspell English Dictionary",
+    "ImageUrl": "/images/dictionary.png",
+    "Url": "https://github.com/streetsidesoftware/cspell-dicts/tree/master/packages/en_US",
+    "InvertImageColors": false,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "IDWeb",
+    "ImageUrl": "/images/id-card.svg",
+    "Url": "https://aka.ms/idweb",
+    "InvertImageColors": true,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "CSS Fonts",
+    "ImageUrl": "/images/font.svg",
+    "Url": "https://www.cssfontstack.com/Consolas",
+    "InvertImageColors": true,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "Dotnet Swag",
+    "ImageUrl": "/images/gift.svg",
+    "Url": "https://github.com/dotnet/swag",
+    "InvertImageColors": true,
     "BackgroundColor": null
   }
 ]
