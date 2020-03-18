@@ -243,5 +243,26 @@
     "Url": "https://github.com/dotnet/swag",
     "InvertImageColors": true,
     "BackgroundColor": null
+  },
+  {
+    "Text": "AzDo Bug Classification and Prioritization",
+    "ImageUrl": "/images/guidance.svg",
+    "Url": "https://devdiv.visualstudio.com/DevDiv/_wiki/wikis/DevDiv.wiki/6583/Bug-Classification-and-Prioritization",
+    "InvertImageColors": true,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "Microsoft benefits (MSFT)",
+    "ImageUrl": "/images/insurance.svg",
+    "Url": "https://mymicrosoftbenefits.com/",
+    "InvertImageColors": true,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "Microsoft company store",
+    "ImageUrl": "/images/windows-store.svg",
+    "Url": "http://msecompanystore.com/",
+    "InvertImageColors": true,
+    "BackgroundColor": null
   }
 ]
