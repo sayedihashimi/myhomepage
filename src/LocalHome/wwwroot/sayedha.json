@@ -264,5 +264,12 @@
     "Url": "http://msecompanystore.com/",
     "InvertImageColors": true,
     "BackgroundColor": null
+  },
+  {
+    "Text": "Microsoft myorders",
+    "ImageUrl": "/images/purchase-order.svg",
+    "Url": "https://myorder.microsoft.com/#/home",
+    "InvertImageColors": true,
+    "BackgroundColor": null
   }
 ]
