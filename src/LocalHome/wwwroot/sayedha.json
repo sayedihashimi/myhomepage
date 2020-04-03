@@ -271,5 +271,12 @@
     "Url": "https://myorder.microsoft.com/#/home",
     "InvertImageColors": true,
     "BackgroundColor": null
+  },
+  {
+    "Text": ".NET Release dashboard (dotnet)",
+    "ImageUrl": "/images/dashboard.svg",
+    "Url": "https://dev.azure.com/devdiv/DevDiv/_dashboards/dashboard/f90a8bc0-d155-42a4-9793-c61d7a568d28",
+    "InvertImageColors": true,
+    "BackgroundColor": null
   }
 ]
