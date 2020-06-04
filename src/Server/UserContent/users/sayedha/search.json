@@ -1,0 +1,46 @@
+﻿[
+  {
+    "DisplayName": "google",
+    "SearchUrl": "https://www.google.com/search?q={0}"
+  },
+  {
+    "DisplayName": "bing",
+    "SearchUrl": "https://www.bing.com/search?q={0}"
+  },
+  {
+    "DisplayName": "UTF-8 Icons",
+    "SearchUrl": "https://www.utf8icons.com/search?query={0}"
+  },
+  {
+    "DisplayName": "github",
+    "SearchUrl": "https://github.com/search?q={0}"
+  },
+  {
+    "DisplayName": "nuget",
+    "SearchUrl": "https://www.nuget.org/packages?q={0}"
+  },
+  {
+    "DisplayName": "twitter",
+    "SearchUrl": "https://twitter.com/search?q={0}"
+  },
+  {
+    "DisplayName": "youtube",
+    "SearchUrl": "https://www.youtube.com/results?search_query={0}"
+  },
+  {
+    "DisplayName": "iconfinder",
+    "SearchUrl": "https://www.iconfinder.com/search/?q={0}&from=homepage&price=free"
+  },
+  {
+    "DisplayName": "reddit",
+    "SearchUrl": "https://www.reddit.com/search/?q={0}"
+  },
+  {
+    "DisplayName": "wikipedia",
+    "SearchUrl": "https://en.wikipedia.org/wiki/{0}"
+  },
+  {
+    "DisplayName": "stackoverflow",
+    "SearchUrl": "https://stackoverflow.com/search?q={0}"
+  }
+]

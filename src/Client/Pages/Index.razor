@@ -1,0 +1,12 @@
+﻿@page "/"
+@inherits IndexBase
+@using LocalHome.Client.Components
+
+
+    <Search OnFilter="DoFilter" />
+@if(ULinks != null){
+    @foreach (var ul in ULinks)
+    {
+        <Link UserLinkVM="@ul" />
+    }
+}
