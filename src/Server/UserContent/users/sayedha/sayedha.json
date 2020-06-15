@@ -285,5 +285,12 @@
     "Url": "https://lorexwiki.com/",
     "InvertImageColors": true,
     "BackgroundColor": null
+  },
+  {
+    "Text": "ASP.NET Team blog",
+    "ImageUrl": "/images/blog-post.svg",
+    "Url": "https://devblogs.microsoft.com/aspnet/",
+    "InvertImageColors": true,
+    "BackgroundColor": null
   }
 ]
