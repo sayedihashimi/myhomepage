@@ -292,5 +292,12 @@
     "Url": "https://devblogs.microsoft.com/aspnet/",
     "InvertImageColors": true,
     "BackgroundColor": null
+  },
+  {
+    "Text": "Azure (microsoft) icons",
+    "ImageUrl": "/images/msft-favicon.ico",
+    "Url": "https://azure.microsoft.com/en-us/patterns/styles/glyphs-icons/#tab-product",
+    "InvertImageColors": false,
+    "BackgroundColor": null
   }
 ]
