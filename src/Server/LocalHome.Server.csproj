@@ -18,7 +18,7 @@
     <LocalPortNum Condition=" '$(LocalPortNum)'=='' ">9001</LocalPortNum>
   </PropertyGroup>
   <Target Name="RunLocal">
-    <Exec Command="dotnet run --urls=http://localhost:$(LocalPortNum)/"/>
+    <Exec Command="dotnet run --urls=https://localhost:$(LocalPortNum)/"/>
   </Target>
 
 </Project>
