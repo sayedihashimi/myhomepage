@@ -21,9 +21,23 @@
     "BackgroundColor": null
   },
   {
-    "Text": "AzDo - my team",
-    "ImageUrl": "/images/bug.svg",
-    "Url": "https://devdiv.visualstudio.com/DevDiv/_backlogs/backlog/VS%20for%20Mac%20-%20.NET%20Core%20and%20Azure/Experiences",
+    "Text": "AzDo - Web Editor team",
+    "ImageUrl": "/images/team.svg",
+    "Url": "https://devdiv.visualstudio.com/DevDiv/_backlogs/backlog/Web%20Tools%20-%20Editors/Experiences",
+    "InvertImageColors": true,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "AzDo - Web Live Preview team",
+    "ImageUrl": "/images/team.svg",
+    "Url": "https://devdiv.visualstudio.com/DevDiv/_backlogs/backlog/Web%20Tools%20-%20Live%20Preview/Scenarios",
+    "InvertImageColors": true,
+    "BackgroundColor": null
+  },
+  {
+    "Text": "AzDo - Web Project team",
+    "ImageUrl": "/images/team.svg",
+    "Url": "https://devdiv.visualstudio.com/DevDiv/_backlogs/backlog/Web%20Tools%20-%20Project%20and%20Azure%20Tools/Experiences/",
     "InvertImageColors": true,
     "BackgroundColor": null
   },
@@ -142,7 +156,7 @@
   {
     "Text": "IconFinder",
     "ImageUrl": "/images/iconfinder-favicon-96x96.png",
-    "Url": "https://www.iconfinder.com/search/?q=dogfood&from=homepage",
+    "Url": "https://www.iconfinder.com/search/?q=icon&price=free&size=128",
     "InvertImageColors": false,
     "BackgroundColor": "white"
   },
