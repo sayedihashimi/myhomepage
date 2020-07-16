@@ -49,6 +49,13 @@
     "BackgroundColor": null
   },
   {
+    "Text": "Web tools Team SharePoint site",
+    "ImageUrl": "/images/sharepoint-300px.png",
+    "Url": "https://microsoft.sharepoint.com/teams/aspnet",
+    "InvertImageColors": false,
+    "BackgroundColor": null
+  },
+  {
     "Text": "VSMac Team SharePoint site",
     "ImageUrl": "/images/sharepoint-300px.png",
     "Url": "https://microsoft.sharepoint.com/teams/vsformac/",
