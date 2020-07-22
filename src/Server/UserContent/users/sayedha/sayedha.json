@@ -327,5 +327,12 @@
     "Url": "https://tools.opensource.microsoft.com/use",
     "InvertImageColors": false,
     "BackgroundColor": "white"
+  },
+  {
+    "Text": "Meeting time across time zones (clocks)",
+    "ImageUrl": "/images/clocks.svg",
+    "Url": "https://www.timeanddate.com/worldclock/meeting.html",
+    "InvertImageColors": false,
+    "BackgroundColor": "white"
   }
 ]
