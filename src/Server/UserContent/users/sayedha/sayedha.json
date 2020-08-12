@@ -334,5 +334,12 @@
     "Url": "https://www.timeanddate.com/worldclock/meeting.html",
     "InvertImageColors": false,
     "BackgroundColor": "white"
+  },
+  {
+    "Text": "DevCom suggestions dashboard",
+    "ImageUrl": "/images/suggestions.svg",
+    "Url": "https://aka.ms/suggestions",
+    "InvertImageColors": false,
+    "BackgroundColor": "white"
   }
 ]
