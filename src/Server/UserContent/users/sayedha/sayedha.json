@@ -322,6 +322,13 @@
     "BackgroundColor": null
   },
   {
+    "Text": "iconcloud Azure & Microsoft icons",
+    "ImageUrl": "/images/msft-favicon.ico",
+    "Url": "https://iconcloud.design/",
+    "InvertImageColors": false,
+    "BackgroundColor": null
+  },
+  {
     "Text": "MSFT OSS Request Tool (CELA)",
     "ImageUrl": "/images/gavel.svg",
     "Url": "https://tools.opensource.microsoft.com/use",
