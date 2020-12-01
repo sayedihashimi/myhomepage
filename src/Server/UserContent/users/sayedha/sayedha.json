@@ -35,6 +35,13 @@
     "BackgroundColor": null
   },
   {
+    "Text": "AzDo - Planning board",
+    "ImageUrl": "/images/team.svg",
+    "Url": "https://aka.ms/nettoolsplan",
+    "InvertImageColors": true,
+    "BackgroundColor": null
+  },
+  {
     "Text": "AzDo - Web Project team",
     "ImageUrl": "/images/team.svg",
     "Url": "https://devdiv.visualstudio.com/DevDiv/_backlogs/backlog/Web%20Tools%20-%20Project%20and%20Azure%20Tools/Experiences/",
@@ -348,5 +355,17 @@
     "Url": "https://aka.ms/suggestions",
     "InvertImageColors": false,
     "BackgroundColor": "white"
+  },
+  {
+    "Text": "Official .net branding assets (logos)",
+    "ImageUrl": "/images/dotnet-logo.svg",
+    "Url": "https://github.com/dotnet/brand",
+    "InvertImageColors": false
+  },
+  {
+    "Text": "Tips on recording videos",
+    "ImageUrl": "/images/youtube.svg",
+    "Url": "https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/9658/Recording-Videos-Presentations?anchor=**tools-%26-specs-for-capturing-demos**",
+    "InvertImageColors": false
   }
 ]
