@@ -367,5 +367,11 @@
     "ImageUrl": "/images/youtube.svg",
     "Url": "https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/9658/Recording-Videos-Presentations?anchor=**tools-%26-specs-for-capturing-demos**",
     "InvertImageColors": false
+  },
+  {
+    "Text": "Web Editors - telemetry dashboard",
+    "ImageUrl": "/images/chart.svg",
+    "Url": "https://devdiv.visualstudio.com/DevDiv/_dashboards/dashboard/2b9455c6-253e-488a-b864-019596ff5619",
+    "InvertImageColors": false
   }
 ]
