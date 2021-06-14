@@ -329,6 +329,13 @@
     "BackgroundColor": null
   },
   {
+    "Text": "VS icons",
+    "ImageUrl": "/images/msft-favicon.ico",
+    "Url": "https://d3assets.azurewebsites.net/icons/vswin2019and2020",
+    "InvertImageColors": false,
+    "BackgroundColor": null
+  },
+  {
     "Text": "iconcloud Azure & Microsoft icons",
     "ImageUrl": "/images/msft-favicon.ico",
     "Url": "https://iconcloud.design/",
