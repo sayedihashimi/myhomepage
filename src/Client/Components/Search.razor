@@ -121,8 +121,27 @@
 
         // TODO: get from somewhere
         string username = "sayedha";
-        List<SearchProvider> providers = await httpClient.GetFromJsonAsync<List<SearchProvider>>(
-            $"api/searchprovider/{username}");
+        Console.Write("Trying to fetch search providers from api");
+
+
+        List<SearchProvider> providers = null;
+        try{
+            // TODO: this isn't working, need to investigate later
+            providers = await httpClient.GetFromJsonAsync<List<SearchProvider>>(
+                $"api/searchprovider/{username}");
+        }
+        catch
+        {
+            providers = new List<SearchProvider>
+                {
+                    new SearchProvider
+                    {
+                        DisplayName="google",
+                        SearchUrl="https://www.google.com/search?q={0}"
+                    }
+                };
+        }
+        
         return providers;
     }
 }

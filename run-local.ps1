@@ -18,7 +18,7 @@ $outputpathtouse = (Get-Item $outputPath).FullName + '\'
 'outputpathtouse: "{0}"' -f $outputpathtouse | Write-Output
 &dotnet publish $serverProjectFile -p:BaseOutputPath=$outputpathtouse
 
-$pathToExe = Join-Path $outputPath 'Debug\netcoreapp3.1\publish\LocalHome.Server.exe'
+$pathToExe = Join-Path $outputPath 'Debug\net5.0\publish\LocalHome.Server.exe'
 if(-not (test-path $pathToExe)){
     'File not found at "{0}"' -f $pathToExe | Write-Error
 }

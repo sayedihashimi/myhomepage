@@ -28,6 +28,8 @@ namespace LocalHome.Server.Controllers
             // TODO: Get this from somewhere
             if (string.IsNullOrEmpty(username)) { username = "sayedha"; }
             string filepath = Path.Combine(WebHostEnv.ContentRootPath, $"UserContent/users/{username}/search.json");
+            Console.WriteLine($"Loading search providers from '{filepath}'");
+
             return await SpReader.GetSearchProvidersFromFileAsync(filepath);
         }
     }
