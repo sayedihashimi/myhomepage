@@ -6,8 +6,8 @@
 
 $scriptDir = split-path -parent $MyInvocation.MyCommand.Definition
 $serverProjectFile = (Get-Item (join-path $scriptDir .\src\Server\LocalHome.Server.csproj)).FullName
-$outputPath = Join-Path -Path $scriptDir '.output' 
-$url='https://localhost:9005'
+$outputPath = Join-Path -Path $scriptDir '_output' 
+$url='https://localhost:5006'
 
 # need to create the folder to easily get the full path
 if(-not (test-path -LiteralPath $outputPath)){
@@ -16,9 +16,11 @@ if(-not (test-path -LiteralPath $outputPath)){
 
 $outputpathtouse = (Get-Item $outputPath).FullName + '\'
 'outputpathtouse: "{0}"' -f $outputpathtouse | Write-Output
-&dotnet publish $serverProjectFile -p:BaseOutputPath=$outputpathtouse
+# &dotnet publish $serverProjectFile -p:BaseOutputPath=$outputpathtouse
 
-$pathToExe = Join-Path $outputPath 'Debug\net5.0\publish\LocalHome.Server.exe'
+&dotnet build $serverProjectFile -p:DeployOnBuild=true -p:PublishProfile=FolderProfile -p:PublishUrl="$outputpathtouse"
+
+$pathToExe = Join-Path $outputPath 'LocalHome.Server.exe'
 if(-not (test-path $pathToExe)){
     'File not found at "{0}"' -f $pathToExe | Write-Error
 }
