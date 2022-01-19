@@ -7,7 +7,7 @@
 $scriptDir = split-path -parent $MyInvocation.MyCommand.Definition
 $serverProjectFile = (Get-Item (join-path $scriptDir .\src\Server\LocalHome.Server.csproj)).FullName
 $outputPath = Join-Path -Path $scriptDir '_output' 
-$url='https://localhost:5006'
+$url='https://localhost:45655'
 
 # need to create the folder to easily get the full path
 if(-not (test-path -LiteralPath $outputPath)){
@@ -28,6 +28,7 @@ if(-not (test-path $pathToExe)){
 # change into directory containing the exe
 Push-Location -Path (Split-Path $pathToExe -Parent)
 # launch browser before it starts because the process never ends
+'pathToExe: "{0}"' -f $pathToExe | Write-output
 start $url
 &$pathToExe --urls=$url
 Pop-Location
