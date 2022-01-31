@@ -380,5 +380,11 @@
     "ImageUrl": "/images/chart.svg",
     "Url": "https://devdiv.visualstudio.com/DevDiv/_dashboards/dashboard/2b9455c6-253e-488a-b864-019596ff5619",
     "InvertImageColors": false
+  },
+  {
+    "Text": "Unicode characters",
+    "ImageUrl": "/images/font.svg",
+    "Url": "https://www.compart.com/en/unicode",
+    "InvertImageColors": false
   }
 ]
