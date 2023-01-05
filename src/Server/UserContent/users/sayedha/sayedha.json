@@ -126,6 +126,13 @@
     "BackgroundColor": null
   },
   {
+    "Text": "Telemetry Dashboard",
+    "ImageUrl": "/images/chart.svg",
+    "Url": "https://aka.ms/dotnetdata",
+    "InvertImageColors": true,
+    "BackgroundColor": null
+  },
+  {
     "Text": "Kusto - VSMac",
     "ImageUrl": "/images/kusto.png",
     "Url": "https://web.kusto.windows.net/clusters/ddteldata/databases/VSMac",
@@ -385,6 +392,18 @@
     "Text": "Unicode characters",
     "ImageUrl": "/images/font.svg",
     "Url": "https://www.compart.com/en/unicode",
+    "InvertImageColors": false
+  },
+  {
+    "Text": "VS Add What's New'",
+    "ImageUrl": "/images/new.svg",
+    "Url": "https://aka.ms/addwhatsnew",
+    "InvertImageColors": true
+  },
+  {
+    "Text": "VS Code Icons",
+    "ImageUrl": "/images/vscode.svg",
+    "Url": "https://microsoft.github.io/vscode-codicons/dist/codicon.html",
     "InvertImageColors": false
   }
 ]
