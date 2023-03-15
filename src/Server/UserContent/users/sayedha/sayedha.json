@@ -405,5 +405,11 @@
     "ImageUrl": "/images/vscode.svg",
     "Url": "https://microsoft.github.io/vscode-codicons/dist/codicon.html",
     "InvertImageColors": false
+  },
+  {
+    "Text": "hashr website",
+    "ImageUrl": "/images/hash.svg",
+    "Url": "https://hashr.azurewebsites.net/",
+    "InvertImageColors": true
   }
 ]
